@@ -1,0 +1,27 @@
+# === General OS files ===
+.DS_Store
+
+# === Python (global venv in root) ===
+.venv/
+__pycache__/
+*.log
+
+# === Backend ===
+bci_backend/.env
+bci_backend/__pycache__/
+
+# === Frontend ===
+bci_frontend/node_modules/
+bci_frontend/dist/
+bci_frontend/.env
+bci_frontend/.env.local
+
+# === ML Models ===
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.ckpt
+
+# === Infrastructure ===
+infra/**/*.tfstate
+infra/.terraform/
